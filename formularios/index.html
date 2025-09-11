@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Faça um orçamento comigo por whatsapp" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Trabalhe comigo</title>
+  </head>
+  <body>
+    <h1>Trabalhe comigo</h1>
+    <p>Informe seus dados e converse comigo no whatsapp</p>
+
+    <form onsubmit="enviarDados(event)">
+      <fieldset>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" minlength="3" maxlength="30" required />
+      </fieldset>
+
+      <div>
+        <fieldset>
+          <label for="cpf">CPF</label>
+          <input id="cpf" type="text" minlength="11" maxlength="11" required />
+        </fieldset>
+
+        <fieldset>
+          <label for="data-nascimento">Data de nascimento</label>
+          <input id="data-nascimento" type="date" required />
+        </fieldset>
+      </div>
+
+      <fieldset>
+        <label for="email">Email</label>
+        <input id="email" type="email" required />
+      </fieldset>
+
+      <div>
+        <legend>Tipo de serviço</legend>
+
+        <fieldset>
+          <div>
+            <input type="radio" id="site" value="site" />
+            <label for="site">Site</label>
+          </div>
+
+          <div>
+            <input type="radio" id="sistema" value="sistema" />
+            <label for="sistema">Sistema</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <button>Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
