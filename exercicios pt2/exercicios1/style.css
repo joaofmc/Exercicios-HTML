@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 10px;
+}
+
+#x{
+    color: green
+}
+
+#y{
+    color: red
+}

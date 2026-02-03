@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-color: rgba(90, 85, 78, 0.671);
+}
+
+h1{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+td{
+    border: 1px solid black;
+}
+
+table{
+    margin: 0 auto;
+}
